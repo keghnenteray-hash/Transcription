@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: black;
+    background-color: white;
+    padding: 2rem;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 500;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+section h1 {
+    color: #00421e;
+    font-size: 2rem;
+    margin: 3rem;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section form button {
+    border: none;
+    background-color: #00421e;
+    color: white;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    margin-top: 1rem;
+}
